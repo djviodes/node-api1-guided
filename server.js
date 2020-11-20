@@ -1,6 +1,5 @@
 // this import is now pulling from the node_modules instead of the Node stdlib
 const express = require('express');
-const { updateUser } = require('./database');
 const db = require('./database');
 
 // create an express server instance
