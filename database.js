@@ -9,7 +9,7 @@ function getUsers() {
 }
 
 function getUserById(id) {
-    return users.fing(u => u.id === id)
+    return users.find(u => u.id === id)
 }
 
 function createUser(data) {
